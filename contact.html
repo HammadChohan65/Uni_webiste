@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,600&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<title>Top Ranked University</title>
+</head>
+<body>
+<!-- 	=================header section ================= -->
+	<div class="sub-header">
+		<nav class="navbar">
+			<a href="#"><img src="images/logo.png"></a>
+			<div class="menu" id="menu">
+				<i class="fas fa-times icon" onclick="closeMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars icon" onclick="openMenu()" ></i>
+		</nav>
+		<h1>Contact US</h1>
+	</div>
+
+<!-- 	==================contact us content section start============== -->
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28946.84188325561!2d67.13665255000002!3d24.919965550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338fa00456acf%3A0x7a277bdfeb6b99aa!2sGulistan-e-Johar%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1638119510931!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fas fa-map-marker-alt"></i>
+				<span>
+					<h5>Uni Road,Rosha  Building</h5>
+					<p>gulshan e johar, karachi</p>
+				</span>
+			</div>
+			<div>
+				<i class="fas fa-phone-volume"></i>
+				<span>
+					<h5>+92 047926107</h5>
+					<p>Monday To Friday,09AM to 8PM</p>
+				</span>
+			</div>
+			<div>
+				<i class="fas fa-envelope"></i>
+				<span>
+					<h5>xyz@gmail.com</h5>
+					<p>Email us your query</p>
+				</span>
+			</div>
+		</div>
+		<div class="contact-col">
+			<form>
+					<input type="text" name="" placeholder="Enter Your Name" required>
+					<input type="email" name="" placeholder="Enter Email Address" required>
+					<input type="text" name="" placeholder="Enter Your Subject" required>
+					<textarea cols="8" placeholder="Message" required=""></textarea>
+						<button type="submit" class="general-btn red-btn">Send Message</button>										
+			</form>
+		</div>
+	</div>
+</section>
+<!-- 	=================contact us content section end ================= -->
+
+<!-- 	=================header section ================= -->
+
+<!-- 	 ================= footer section end ================= -->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+	<div class="about-icons">
+		<i class="fab fa-facebook-square"></i>
+		<i class="fab fa-instagram-square"></i>
+		<i class="fab fa-linkedin"></i>
+		<i class="fab fa-twitter-square"></i>
+	</div>
+	<p>Designed by <i class="fas fa-grin-hearts love"></i> Hammad Chohan</ lovep>
+</section>
+<!-- 	 ================= footer section strat ================= -->
+
+
+<script type="text/javascript">
+	let menu = document.getElementById("menu");
+
+	function openMenu()
+	{
+		menu.style.right = "0px";
+	}
+	function closeMenu()
+	{
+		menu.style.right = "-200px";	
+	}
+</script>
+</body>
+</html>
